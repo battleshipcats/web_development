@@ -1,0 +1,60 @@
+body, button{
+    background: #222;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+      helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+    color: hotpink;
+  }
+  
+  main {
+    height: 100%;
+    margin: 100px;
+    top: 0;
+    left: 0;
+    display: flex;
+    gap: 50px;
+    padding: 10px;
+    align-items: start;
+    justify-content: left;
+    flex-direction: row;
+    text-align: left;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin: 0 0 10px 0;
+  }
+  
+  input, textarea {
+    appearance: none;
+    -webkit-appearance: none;
+    border: 3px white solid;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    background: #888;
+    padding: 10px;
+    margin: 10px 0;
+    color: white;
+    cursor: pointer;
+  }
+
+  #blog {
+    width: 80%;
+    height: 100%;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .container {
+    display: flex;
+    gap: 10px;
+    padding: 10px 0px;
+    border: 2px solid black;
+}
+
+.container>* {
+  border: 3px solid hotpink;
+  flex: 1;
+}

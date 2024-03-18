@@ -1,0 +1,25 @@
+.avocado {
+    background-color: #ABC270;
+} 
+.ginger {
+    background-color: #FEC868;
+}
+.horizon {
+    background-color: #8acefc;
+}
+.russet {
+    background-color: #FDA769;
+}
+.peat {
+    background-color: #897564;
+}
+
+h1, h2 {font-family: 'Kalnia', serif;}
+
+.my-icons {
+    border: #897564 solid 5px;
+    border-radius: 5px;
+}
+#my-nav-bar {
+    font-family: 'Kalnia', serif;
+}
