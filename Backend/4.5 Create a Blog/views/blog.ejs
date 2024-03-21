@@ -1,11 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blog Post <%= date =%></title>
-  </head>
-  <body>
-    <h1><%= title %></h1>
-  </body>
-</html>
+<%- include('partials/header.ejs') %> <%- include('partials/navbar.ejs') %>
+
+<main>
+
+  <div id="blog">
+    <h1><%= locals.titleInput %></h1>
+    <h5><%= locals.date %></h5>
+    <p><%= locals.blogInput %></p>
+    <form action="/edit" method="get">
+      <input type="submit" value="Edit" />
+    </form>
+  </div>
+
+</main>
+
+<%- include('partials/footer.ejs') %>

@@ -3,17 +3,10 @@
 <main>
   <div><%- include('partials/submit.ejs') %></div>
 
-  <% if (locals.titleInput) { %>
-
   <div id="blog">
-    <h1><%= locals.titleInput %></h1>
-    <h5><%= locals.date %></h5>
-    <p><%= locals.blogInput %></p>
-    <form action="/edit" method="get">
-      <input type="submit" value="Edit" />
-    </form>
+
   </div>
-  <% } %>
+
 </main>
 
 <%- include('partials/footer.ejs') %>
