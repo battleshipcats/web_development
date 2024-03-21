@@ -58,3 +58,10 @@ body, button{
   border: 3px solid hotpink;
   flex: 1;
 }
+
+#blogtitle {
+  size: 3rem;
+  text-align: center;
+  padding: 10px 0px;
+  border: 2px solid black;
+}
