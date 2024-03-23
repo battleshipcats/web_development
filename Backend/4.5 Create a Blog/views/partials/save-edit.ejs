@@ -1,0 +1,8 @@
+<form action="/submit" method="post">
+  <label for="title">Title:</label><br />
+  <input type="text" value="<% locals.titleInput %>" id="title" name="title"/><br />
+  <label for="blog">Blog:</label><br />
+  <textarea type="text/ejs" value="<%= locals.blogInput %>" id="blog" name="blog"><%= locals.blogInput %></textarea><br />
+  <input type="submit" value="Resave" />
+  <h3><% locals.titleInput %></h3>
+</form>
